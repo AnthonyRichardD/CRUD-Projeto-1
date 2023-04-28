@@ -43,7 +43,6 @@
         <div class="input-wrapper">
           <input required disabled type="text" placeholder="Complemento" value="<?=$data['complemento']?>">
         </div>
-        <?php var_dump($cep); ?>
         <input type="text" value="<?=$_POST['name']?>" name="name" hidden >
         <input type="text" value="<?=$_POST['email']?>" name="email" hidden >
         <input type="text" value="<?=$_POST['phone']?>" name="phone" hidden >
