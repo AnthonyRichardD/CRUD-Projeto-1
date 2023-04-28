@@ -14,11 +14,11 @@
 }
 
 .text-format{
-  font-size: clamp(0.2em,1em,1.5em);
+  font-size: clamp(0.2em,0.8em,1.5em);
 }
 
 div.user-info{
-  padding: 1em;
+  padding: 0.2em;
   width: 25%;
   height: 100%;
   box-shadow: 1px 0px 12px #b6b6b6;
@@ -29,14 +29,12 @@ div.info-row{
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 1em;
+  padding: 0.5em;
 }
 
 p{
   height: 100%;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
 }
 
 div.content-wrapper{
